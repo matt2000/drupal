@@ -4,3 +4,11 @@ checks:
     php:
         code_rating: true
         duplication: true
+tools:
+    php_sim: true
+    php_pdepend: true
+    php_analyzer: true
+filter:
+    excluded_paths:
+        - '*.tpl.php'
+        - '*.test'
